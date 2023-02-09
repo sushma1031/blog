@@ -1,14 +1,31 @@
 body {
   font-family: "Montserrat", sans-serif;
-
+  text-align: center;
   margin: 0;
   height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Merriweather, 'Times New Roman', Times, serif;
+  color: #408ab3;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+hr {
+  width: 75%;
 }
 
 .top-container {
   margin-top: 0;
   display: block;
-
 }
 
 .topnav {
@@ -44,6 +61,7 @@ body {
   margin-block-end: 0;
   margin-inline-start: 25px;
   margin-inline-end: 0;
+
 }
 
 .logo a {
@@ -75,7 +93,7 @@ body {
   display: flex;
   background-image: linear-gradient(rgba(255, 138, 157, 0.5), rgba(255, 255, 255, 0.5)),
     url(file:///C:/Users/Rajasree/Desktop/Sushma/Code/Web%20Development/CSS%20Book%20Blog/images/pexels-irina-iriser-785293.jpg);
-  height: 350px;
+  height: 375px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,21 +101,20 @@ body {
 }
 
 .credit {
-  color: rgb(45, 0, 10);
   position: absolute;
-  font-size: small;
   bottom: 5px;
   right: 5px;
+  color: #343434;
+  font-size: small;
 }
 
 .credit a {
-  color: rgb(45, 0, 10);
+  color: #343434;
   font-size: small;
 }
 
 .card {
   overflow: hidden;
-  font-family: Lora, "Times New Roman", Times, serif;
   text-align: center;
   margin: auto;
   line-height: 10px;
@@ -110,8 +127,116 @@ body {
   width: 35%;
 }
 
+.card * {
+  font-family: Lora, "Times New Roman", Times, serif;
+}
+
 .card h2 {
   font-weight: lighter;
   font-size: 50px;
   color: #ff7287;
+  margin: 41.5px 0;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.profile-text {
+  width: 40%;
+  margin: 0 0 15px;
+  line-height: 0.75cm;
+  text-align: justify;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 250px;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 30px;
+}
+
+.slides {
+  border: solid #747474 2px;
+  margin: 20px 15px;
+  border-radius: 5%;
+  
+}
+
+.slides:hover{
+box-shadow: 0px 0px 10px rgb(66 66 66 / 50%);
+transition: box-shadow 200ms ease-in-out;
+}
+
+.slides img {
+  margin: 0;
+  height: 150px;
+}
+
+.slide-detail {
+  font-size: 0.75rem;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin: 5px 5px 0;
+}
+
+.slide-detail *{
+  font-family: "Montserrat", sans-serif;
+  color:#b6e5ff;
+  margin: 5px;
+  font-weight: lighter;
+}
+
+.contact-me p{
+  text-align: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+
+}
+
+
+.btn {
+  appearance: none;
+  background-color: #ff7287;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  letter-spacing: 0.02cm;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ff7287;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.bottom-container *{
+  text-decoration: none;
+  margin: 0 10px;
+  color: #408ab3;
+}
+
+.bottom-container p {
+  margin: 15px 0;
 }
