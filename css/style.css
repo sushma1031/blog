@@ -15,7 +15,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   background-color: white;
   top: 0;
   display: flex;
@@ -118,3 +118,5 @@ body {
   font-size: 50px;
   color: #ff7287;
 }
+
+
