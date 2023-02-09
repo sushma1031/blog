@@ -1,0 +1,120 @@
+body {
+  font-family: "Montserrat", sans-serif;
+
+  margin: 0;
+  height: 100%;
+}
+
+.top-container {
+  margin-top: 0;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.main-nav {
+  margin-left: 40%;
+  padding: 7px 0 0 0;
+  text-align: end;
+}
+
+.topnav h1,
+.main-nav * {
+  color: #343a40;
+  text-decoration: none;
+  border: none;
+  padding: 5px 15px 5px;
+  text-align: center;
+  display: inline;
+  font-size: 15px;
+}
+
+.topnav h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 25px;
+  margin-inline-end: 0;
+}
+
+.logo a {
+  font-family: Lora, "Times New Roman", Times, serif;
+  color: #343a40;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px 15px;
+  font-size: 25px;
+}
+
+.main-nav input {
+  width: 15%;
+  padding: 10px 0;
+  margin: 0;
+  outline: none;
+}
+
+.main-nav a:hover {
+  color: #ff7287;
+  transition: all 200ms ease-in-out;
+}
+
+.main-nav a:active {
+  color: #ff7287;
+}
+
+.hero {
+  display: flex;
+  background-image: linear-gradient(rgba(255, 138, 157, 0.5),
+      rgba(255, 255, 255, 0.5)),
+    url("file:///C:/Users/Rajasree/Desktop/Sushma/Code/Web%20Development/CSS%20Book%20Blog/images/pexels-irina-iriser-785293.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 65px;
+}
+
+.credit {
+  color: rgb(45, 0, 10);
+  position: absolute;
+  font-size: small;
+  bottom: 5px;
+  right: 5px;
+}
+
+.credit a {
+  color: rgb(45, 0, 10);
+  font-size: small;
+}
+
+.card {
+  overflow: hidden;
+  font-family: Lora,"Times New Roman", Times, serif;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  line-height: 10px;
+  background-color: white;
+  color: #343a40;
+  border-radius: 10px;
+  padding: 30px 25px;
+  box-shadow: 0px 5px 10px rgba(66, 66, 66, 0.564);
+}
+
+.card h2{
+  font-weight: lighter;
+  font-size: 50px;
+  color: #ff7287;
+}
