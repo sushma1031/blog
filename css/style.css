@@ -92,7 +92,7 @@ hr {
 .hero {
   display: flex;
   background-image: linear-gradient(rgba(255, 138, 157, 0.5), rgba(255, 255, 255, 0.5)),
-    url(file:///C:/Users/Rajasree/Desktop/Sushma/Code/Web%20Development/CSS%20Book%20Blog/images/pexels-irina-iriser-785293.jpg);
+    url(../images/pexels-irina-iriser-785293.jpg);
   height: 375px;
   background-position: center;
   background-repeat: no-repeat;
