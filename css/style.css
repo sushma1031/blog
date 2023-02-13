@@ -164,20 +164,22 @@ hr {
 }
 
 .slides {
-  border: solid #747474 2px;
+  border: solid #747474 1px;
   margin: 20px 15px;
-  border-radius: 5%;
+  
   
 }
 
 .slides:hover{
-box-shadow: 0px 0px 10px rgb(66 66 66 / 50%);
+box-shadow: 0 0 10px rgb(66 66 66 / 0.4);
 transition: box-shadow 200ms ease-in-out;
 }
 
 .slides img {
   margin: 0;
+  padding: 0 5px;
   height: 150px;
+  background-color: #343434;
 }
 
 .slide-detail {
@@ -190,7 +192,7 @@ transition: box-shadow 200ms ease-in-out;
 
 .slide-detail *{
   font-family: "Montserrat", sans-serif;
-  color:#b6e5ff;
+  color:#4f4f4f;
   margin: 5px;
   font-weight: lighter;
 }
@@ -231,12 +233,19 @@ transition: box-shadow 200ms ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
+.bottom-container{
+  padding: 15px 0;
+  margin-top: 20px;
+  background-color: #408ab3;
+}
+
 .bottom-container *{
   text-decoration: none;
   margin: 0 10px;
-  color: #408ab3;
+  color: #B6E5FF;
 }
 
 .bottom-container p {
-  margin: 15px 0;
+  margin: 20px 0 0;
+  font-size: smaller;
 }
