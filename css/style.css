@@ -146,6 +146,10 @@ hr {
 }
 
 .profile-text {
+  font-family: Lora,
+    "Times New Roman",
+    Times,
+    serif;
   width: 40%;
   margin: 0 0 15px;
   line-height: 0.75cm;
