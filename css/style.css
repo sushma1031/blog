@@ -212,16 +212,17 @@ transition: box-shadow 200ms ease-in-out;
 
 .btn {
   appearance: none;
-  background-color: #ff7287;
+  background-color: white;
   text-decoration: none;
-  border: 1px solid transparent;
+  border: 1px solid #ff7287;
   border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-shadow: rgba(27, 31, 35, .1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #fff;
+  color: #ff7287;
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
+  font-weight: 500;
   letter-spacing: 0.02cm;
   line-height: 20px;
   margin-top: 0px;
@@ -229,12 +230,14 @@ transition: box-shadow 200ms ease-in-out;
   padding: 10px 16px;
   position: relative;
   text-align: center;
+  transition: background-color, border, color 200ms, 200ms, 200ms ease-in-out;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: #ff7287;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  border: 1px solid transparent;
+  color: white;
 }
 
 .bottom-container{
