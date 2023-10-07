@@ -30,7 +30,6 @@ hr {
 
 .topnav {
   overflow: hidden;
-  /* position: absolute; */
   background-color: white;
   top: 0;
   display: flex;
